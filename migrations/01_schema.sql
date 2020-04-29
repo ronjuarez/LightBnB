@@ -21,7 +21,8 @@ CREATE TABLE properties (
   cover_photo_url VARCHAR(255) NOT NULL,
   cost_per_night SMALLINT NOT NULL DEFAULT 0,
   parking_spaces SMALLINT NOT NULL DEFAULT 0,
-  number_of_bathrooms SMALLINT,
+  number_of_bathrooms SMALLINT NOT NULL,
+  number_of_bedrooms SMALLINT NOT NULL,
   
   country VARCHAR(255) NOT NULL,
   street VARCHAR(255) NOT NULL,
