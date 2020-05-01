@@ -206,7 +206,7 @@ const addProperty = function(property) {
     property.post_code, 
     ])
     .then(res => res.rows[0]);
-  };
-}
+};
+
 
 exports.addProperty = addProperty;
